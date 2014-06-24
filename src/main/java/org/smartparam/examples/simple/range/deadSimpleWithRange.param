@@ -1,0 +1,14 @@
+{
+    name: "deadSimpleParamWithRange",
+    inputLevels: 2,
+    nullable: true,
+    levels: [
+        {type: "string"},
+        {type: "integer", matcher: "between/ie"},
+        {type: "string"}
+    ]
+}
+input;range;output
+A;0~2;outputA
+B;2~10;outputB
+*;10~*;outputWhatever

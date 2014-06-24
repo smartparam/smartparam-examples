@@ -1,0 +1,12 @@
+{
+    name: "deadSimpleParam",
+    inputLevels: 1,
+    levels: [
+        {type: "string"},
+        {type: "string"}
+    ]
+}
+input;output
+A;outputA
+B;outputB
+*;outputWhatever
